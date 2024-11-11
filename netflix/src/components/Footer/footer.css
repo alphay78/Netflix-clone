@@ -1,0 +1,56 @@
+.footer_outer_container {
+  background-color: #111;
+  color: grey;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0; /* Adds padding at the top and bottom */
+}
+
+.footer_inner_container {
+  width: 60%;
+  padding: 20px; /* Adds padding inside the inner container */
+}
+
+.footer_icons {
+  width: 12%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0; /* Adds vertical margin */
+  color: #fff;
+}
+
+.footer_data {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Adds space above the footer data section */
+}
+
+.footer_data ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px; /* Adds space between list items */
+}
+
+.footer_data ul li {
+  cursor: pointer;
+  padding: 5px 0; /* Adds vertical padding for each item */
+}
+
+.service_code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: #fff 1px solid;
+  width: 15%; /* Increases width */
+  padding: 5px 0; /* Adds padding inside the box */
+  margin: 20px 0; /* Adds vertical margin */
+  cursor: pointer;
+}
+
+.copy-write {
+  font-size: 12px;
+  margin-top: 10px; /* Adds space above the copyright text */
+ 
+}

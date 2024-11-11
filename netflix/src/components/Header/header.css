@@ -1,0 +1,46 @@
+.header_outer_container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(20, 20, 20);
+  height: 10vh;
+  color: white;
+  transition: all 0.5s ease-in;
+  z-index: 1;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.header_left ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  cursor: pointer;
+  gap: 20px; /* Adds space between items */
+}
+
+.header_right ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px; /* Adds space between items */
+}
+
+/* Optional: For finer spacing adjustments */
+.header_left li {
+  margin-right: 15px; /* Adjust space between items */
+  color: white;
+}
+
+.header_right li {
+  margin-left: 15px; /* Adjust space between items */
+  color: white;
+}
