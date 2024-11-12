@@ -1,10 +1,12 @@
 import React from "react";
 import "./header.css";
 import NetflixLogo from "../../assets/Images/Netflix_Logo_PMS.png";
-import SearchIcon from "@mui/icons-material/Search";
-import NotificationsIcon from "@mui/icons-material/Notifications"; // corrected import
-import AccountBoxIcon from "@mui/icons-material/AccountBox";
-import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+import { FaSearch } from "react-icons/fa";
+import { IoIosNotificationsOutline } from "react-icons/io";
+
+import { RiAccountBoxFill } from "react-icons/ri";
+
+import { IoMdArrowDropdown } from "react-icons/io";
 
 const Header = () => {
   return (
@@ -27,17 +29,16 @@ const Header = () => {
         <div className="header_right">
           <ul>
             <li>
-              <SearchIcon />
+              <FaSearch />{" "}
             </li>
             <li>
-              <NotificationsIcon />
+              <IoIosNotificationsOutline />
             </li>{" "}
-            {/* corrected icon */}
             <li>
-              <AccountBoxIcon />
+              <RiAccountBoxFill />
             </li>
             <li>
-              <ArrowDropDownIcon />
+              <IoMdArrowDropdown />
             </li>
           </ul>
         </div>

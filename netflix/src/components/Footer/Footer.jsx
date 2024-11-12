@@ -1,7 +1,7 @@
 import React from "react";
-import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import YouTubeIcon from "@mui/icons-material/YouTube";
+import { FaFacebookF } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa";
 import "./footer.css"
 
 const Footer = () => {
@@ -9,9 +9,9 @@ const Footer = () => {
     <div className="footer_outer_container">
       <div className="footer_inner_container">
         <div className="footer_icons">
-          <FacebookOutlinedIcon />
-          <InstagramIcon />
-          <YouTubeIcon />
+          <FaFacebookF />
+          <FaInstagram />
+          <FaYoutube />
         </div>
         <div className="footer_data">
           <div>
@@ -35,7 +35,7 @@ const Footer = () => {
               <li>Corporate Information</li>
             </ul>
           </div>
-          
+
           <div>
             <ul>
               <li>Media Center</li>
@@ -45,13 +45,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="service_code">
-          <p>
-            Service Code
-          </p>
+          <p>Service Code</p>
         </div>
-        <div className="copy-write">
-          &copy;1997-2024 Netflix, Inc.
-        </div>
+        <div className="copy-write">&copy;1997-2024 Netflix, Inc.</div>
       </div>
     </div>
   );
